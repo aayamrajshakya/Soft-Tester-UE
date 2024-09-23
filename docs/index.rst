@@ -84,4 +84,4 @@ System Architecture
    attacks/signal_storming.rst
    attacks/pdcpParrot.rst
    RRC Release Request Spoofing <attacks/request_spoofing>
-
+   attacks/sdu_fuzzing.rst
