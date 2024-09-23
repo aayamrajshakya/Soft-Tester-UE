@@ -80,7 +80,7 @@ System Architecture
    attacks/rach_jamming.rst
    attacks/rach_replay.rst
    attacks/rach_signal_flooding.rst
-   RoHC Poising Attack <attacks/rohc_poisoning_attack>
+   RoHC Poisoning Attack <attacks/rohc_poisoning_attack>
    attacks/signal_storming.rst
    attacks/pdcpParrot.rst
    RRC Release Request Spoofing <attacks/request_spoofing>

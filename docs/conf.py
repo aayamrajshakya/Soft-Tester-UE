@@ -19,7 +19,7 @@ from datetime import date
 year = str(date.today().year)
 
 project = u'Soft-Tester UE'
-copyright = u'{}, RAN TESTER UE.'.format(year)
+copyright = u'{}, RAN TESTER UE'.format(year)
 author = u'Joshua J. Moore'
 release = '1.0'
 
