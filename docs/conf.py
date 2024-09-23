@@ -39,7 +39,7 @@ html_context = {
     "sidebar_external_links_caption": "Useful Links",
     "sidebar_external_links": [
         (
-            '<i class="fa fa-globe"></i> Website',
+            '<i class="fa fa-globe fa-fw"></i> Website',
             "https://www.rantesterue.org/",
         ),
         (
@@ -49,6 +49,10 @@ html_context = {
         (
             '<i class="fa fa-bug fa-fw"></i> Report an issue',
             "https://github.com/oran-testing/soft-t-ue/issues",
+        ),
+        (
+            '<i class="fa-solid fa-comment fa-fw"></i> Discussion board',
+            "https://github.com/oran-testing/soft-t-ue/discussions",
         ),
     ],
 }
