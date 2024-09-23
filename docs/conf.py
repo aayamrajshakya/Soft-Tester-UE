@@ -6,10 +6,6 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Soft-Tester UE'
-copyright = '2024, RAN TESTER UE'
-author = 'Joshua J. Moore'
-release = '1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -18,11 +14,22 @@ import os
 import sys
 import sphinx_rtd_theme
 
+from datetime import date
+
+year = str(date.today().year)
+
+project = u'Soft-Tester UE'
+copyright = u'{}, RAN TESTER UE.'.format(year)
+author = u'Joshua J. Moore'
+release = '1.0'
+
+
 sys.path.insert(0, os.path.abspath('.'))
 
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
+    'sphinx_copybutton',
 ]
 
 html_theme = 'sphinx_rtd_theme'
@@ -32,7 +39,6 @@ html_theme_options = {
     "show_sourcelink": False,
     "collapse_navigation" : False,
     "sticky_navigation": False,
-    'flyout': False,  
 }
 
 html_context = {
@@ -57,6 +63,7 @@ html_context = {
     ],
 }
 
+pygments_style = 'sphinx'
 html_show_sphinx = False
 html_show_sourcelink = False
 html_favicon = 'images/favicon.png'
