@@ -83,4 +83,5 @@ System Architecture
    RoHC Poising Attack <attacks/rohc_poisoning_attack>
    attacks/signal_storming.rst
    attacks/pdcpParrot.rst
+   RRC Release Request Spoofing <attacks/request_spoofing>
 
