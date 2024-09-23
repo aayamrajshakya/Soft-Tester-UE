@@ -46,8 +46,7 @@ To run the controller:
    cd controller/ue
    python3 main.py
 
-Controller arguments: `python3 main.py -h –config /path/to/config
-–gnb_config /path/to/gnb_config –ip IP –port PORT`
+Controller arguments: ``python3 main.py -h –config /path/to/config –gnb_config /path/to/gnb_config –ip IP –port PORT``
 
 Run an srsRAN gNB and Open5GS, then send metrics to the ue_controller
 
@@ -66,10 +65,9 @@ Configuring the UE
 
 The UE controller reads a yaml config file with the following options:
 
-**YAML config structure**:
-
 .. code:: bash
 	
+	#YAML config structure
 	gnb:
 		- config: str
 	namespaces:
@@ -79,7 +77,7 @@ The UE controller reads a yaml config file with the following options:
 		- config_file: str
 		- args: str (optional)
 
-Example configuration files:
+**Example configuration files**:
 
 - `basic_ue_zmq.yaml <https://raw.githubusercontent.com/oran-testing/soft-t-ue/ue_redesign/configs/basic_ue_zmq.yaml>`__
 - `multi_ue_zmq.yaml <https://raw.githubusercontent.com/oran-testing/soft-t-ue/ue_redesign/configs/multi_ue_zmq.yaml>`__
